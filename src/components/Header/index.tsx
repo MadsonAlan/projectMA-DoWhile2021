@@ -8,8 +8,8 @@ export function Header() {
                     <li>O que fazemos</li>
                     <li>Porque fazemos</li>
                     <li>Como Funciona</li>
-                    <li><button ref="Fazer login na plataforma MA">Login MA</button></li>
-                    <li><button ref="Ser um parceiro do projeto MA">Parceiro</button></li>
+                    <li><button >Login MA</button></li>
+                    <li><button >Parceiro</button></li>
                 </ul>
             </div>
         </header>
