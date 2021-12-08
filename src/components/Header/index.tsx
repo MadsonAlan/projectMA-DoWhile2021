@@ -8,8 +8,8 @@ export function Header() {
                     <li>O que fazemos</li>
                     <li>Porque fazemos</li>
                     <li>Como Funciona</li>
-                    <li><button >Login MA</button></li>
-                    <li><button >Parceiro</button></li>
+                    <li><button className={styles.primaryButton}>Login MA</button></li>
+                    <li><button className={styles.secondaryButton} >Parceiro</button></li>
                 </ul>
             </div>
         </header>

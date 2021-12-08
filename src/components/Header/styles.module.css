@@ -51,12 +51,30 @@
             position: relative;
         }
         
-        .menu li button {
+        .primaryButton {
             background: var(--purple);
             color: var(--white);
             padding: 0.5rem;
             border-radius: 5px;
             border: 0;
+            transition: 0.3s;
+        }
+        
+        .primaryButton:hover {
+            background: var(--purple-secondary);
+        }
+        
+        .secondaryButton {
+            background: transparent;
+            color: var(--black);
+            border-color: var(--purple);
+            padding: 0.5rem;
+            border-radius: 5px;
+            transition: 0.3s;
+        }
+        
+        .secondaryButton:hover {
+            background: var(--background-secondary);
         }
         
         @media(max-width: 425px) {
