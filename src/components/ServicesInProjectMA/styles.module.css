@@ -1,59 +1,59 @@
-            .sectionContainer {
-                display: flex;
-                justify-content: center;
-                flex-direction: column;
-            }
-            
-            .sectionContainer h1 {
-                margin: 3rem 0;
-                text-align: center;
-            }
-            
-            .gridContainer {
-                margin-top: 8rem;
-                display: grid;
-                grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-                gap: 3rem;
-                margin-left: 2rem;
-                margin-right: 2rem;
-            }
-            
-            .tittleServices {
-                margin-top: 5rem;
-                text-align: center
-            }
-            
-            .gridContainer {
-                margin: 2rem 0;
-                display: grid;
-                grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-                gap: 3rem;
-                margin-left: 2rem;
-                margin-right: 2rem;
-                align-items: center;
-            }
-            
-            .gridContainer div h2 {
-                margin-bottom: 1.5rem;
-            }
-            
-            .benefitsContainer {
-                list-style: none;
-                display: flex;
-                flex: 1;
-                height: 100%;
-                flex-direction: column;
-                justify-content: space-between;
-            }
-            
-            .benefitsContainer li {
-                font-weight: 600;
-                color: var(--purple-secondary);
-            }
-            
-            @media (max-width: 654px) {
-                .gridContainer {
-                    order: -1;
+                .sectionContainer {
+                    display: flex;
                     justify-content: center;
+                    flex-direction: column;
                 }
-            }
+                
+                .sectionContainer h1 {
+                    margin: 3rem 0;
+                    text-align: center;
+                }
+                
+                .gridContainer {
+                    margin-top: 8rem;
+                    display: grid;
+                    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+                    gap: 3rem;
+                    margin-left: 2rem;
+                    margin-right: 2rem;
+                }
+                
+                .tittleServices {
+                    margin-top: 5rem;
+                    text-align: center
+                }
+                
+                .gridContainer {
+                    margin: 2rem 0;
+                    display: grid;
+                    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+                    gap: 3rem;
+                    margin-left: 2rem;
+                    margin-right: 2rem;
+                    align-items: center;
+                }
+                
+                .gridContainer div h2 {
+                    margin-bottom: 1.5rem;
+                }
+                
+                .benefitsContainer {
+                    list-style: none;
+                    display: flex;
+                    flex: 1;
+                    height: 100%;
+                    flex-direction: column;
+                    justify-content: space-between;
+                }
+                
+                .benefitsContainer li {
+                    font-weight: 600;
+                    color: var(--purple-secondary);
+                }
+                
+                @media (max-width: 654px) {
+                    .gridContainer {
+                        order: -1;
+                        justify-content: center;
+                    }
+                }
