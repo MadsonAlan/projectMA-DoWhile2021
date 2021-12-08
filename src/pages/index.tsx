@@ -1,16 +1,26 @@
 import Head from 'next/head'
 import { Header } from '../components/Header'
-import styles from '../../styles/Home.module.css'
+import React from 'react'
+import { Apresentation } from '../components/Apresentation/Index'
+import { Description } from '../components/Description'
+import { ServicesInProjectMa } from '../components/ServicesInProjectMA'
+import { PartnerForm } from '../components/PartnerForm'
 
 export default function Home() {
   return (
-    <div className={styles.container}>
-      <Head>
-        <title>Project MA</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+    <div className="container">
+      <div>
+        <Head>
+          <title>Project MA</title>
+          <link rel="icon" href="/favicon.ico" />
+        </Head>
 
-      <Header />
+        <Header />
+        <Apresentation />
+        <Description />
+        <ServicesInProjectMa />
+        <PartnerForm />
+      </div>
     </div>
   )
 }

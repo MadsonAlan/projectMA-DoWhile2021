@@ -9,7 +9,10 @@
             align-items: center;
             justify-content: center;
             padding: 0 2rem;
-            background: var(--background);
+            background: rgba(255, 255, 255, 0.2);
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(6px);
+            -webkit-backdrop-filter: blur(5px);
         }
         
         .header>div {
@@ -18,15 +21,15 @@
             max-width: 992px;
             justify-content: space-between;
             align-items: center;
-            background: var(--background);
+            /* background: var(--background); */
             color: var(--black);
         }
         
         .tittleHeader {
-            font-weight: 400;
+            font-family: 'Orbitron';
             margin: 1rem 0;
             text-align: center;
-            color: var(--red);
+            color: var(--black);
         }
         
         .tittleHeader strong {
@@ -53,6 +56,7 @@
             color: var(--white);
             padding: 0.5rem;
             border-radius: 5px;
+            border: 0;
         }
         
         @media(max-width: 425px) {

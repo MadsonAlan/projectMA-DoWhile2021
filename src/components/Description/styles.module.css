@@ -1,0 +1,22 @@
+    .sectionContainer {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .gridContainer {
+        margin-top: 8rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+    
+    .benefitsContainer {
+        display: block;
+        list-style: none;
+    }
+    
+    .benefitsContainer li {
+        margin-top: 1.5rem;
+    }

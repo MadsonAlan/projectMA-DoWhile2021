@@ -1,5 +1,5 @@
 body {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 * {
@@ -11,10 +11,12 @@ body {
 :root {
     --white: #fff;
     --background: #F8F8FC;
+    --background-secondary: #c3c6d6;
     --black: #06070E;
     --text: #8E94B0;
     --text-highlight: #484D5A;
-    --purple: #473DED
+    --purple: #473DED;
+    --purple-secondary: #6a62f0;
 }
 
 @media(max-width: 1080px) {
@@ -39,6 +41,18 @@ input,
 textarea,
 button {
     font: 400 1rem "Inter", sans-serif;
+    line-height: 1.5rem;
+}
+
+h1 {
+    line-height: normal;
+    color: var(--text-highlight);
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+img {
+    width: 95%;
 }
 
 button {
@@ -51,8 +65,10 @@ a {
 }
 
 .container {
-    min-height: 100vh;
+    height: 100vh;
     max-width: 992px;
+    margin: 0 auto;
+    padding: 2.5rem 2rem;
     display: flex;
     flex-direction: column;
 }
