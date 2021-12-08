@@ -3,7 +3,7 @@ import styles from './styles.module.css'
 import { MdOutlineKeyboardArrowRight } from 'react-icons/md'
 export function ServicesInProjectMa() {
     return (
-        <section className={styles.sectionContainer}>
+        <section id="how" className={styles.sectionContainer}>
             <div className={styles.tittleServices}>
                 <h1>O que oferecemos</h1>
                 <p>Dentro da plataforma possuímos dois tipos de serviços:

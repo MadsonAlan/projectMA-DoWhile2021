@@ -2,7 +2,7 @@ import styles from './styles.module.css'
 
 export function Apresentation() {
     return (
-        <div className={styles.sectionContainer}>
+        <div id="what" className={styles.sectionContainer}>
             <section className={styles.gridContainer}>
                 <div>
                     <h1>A educação construindo futuros</h1>

@@ -2,7 +2,7 @@ import styles from './styles.module.css'
 
 export function PartnerForm() {
     return (
-        <div className={styles.sectionContainer}>
+        <div id="be-a-partner" className={styles.sectionContainer}>
             <section className={styles.gridContainer}>
                 <div>
                     <h1>Seja uma Empresa/ONG parceira</h1>

@@ -5,11 +5,11 @@ export function Header() {
             <div>
                 <h1 className={styles.tittleHeader}>Project MA</h1>
                 <ul className={styles.menu}>
-                    <li>O que fazemos</li>
-                    <li>Porque fazemos</li>
-                    <li>Como Funciona</li>
+                    <li><a href="#what">O que fazemos</a></li>
+                    <li><a href="#why">Porque fazemos</a></li>
+                    <li><a href="#how">Como Funciona</a></li>
+                    <li><a href="#be-a-partner" className={styles.secondaryButton} >Ser um parceiro</a></li>
                     <li><button className={styles.primaryButton}>Login MA</button></li>
-                    <li><button className={styles.secondaryButton} >Parceiro</button></li>
                 </ul>
             </div>
         </header>

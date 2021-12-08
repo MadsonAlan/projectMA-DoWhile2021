@@ -3,7 +3,7 @@ import styles from './styles.module.css'
 import { MdOutlineKeyboardArrowRight } from 'react-icons/md'
 export function Description() {
     return (
-        <div className={styles.sectionContainer}>
+        <div id="why" className={styles.sectionContainer}>
             <section className={styles.gridContainer}>
                 <div className={styles.imageContainer}>
                     <img src='/images/ajudandoQuemPrecisa.svg' alt="Construindo futuros" />

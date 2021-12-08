@@ -5,6 +5,7 @@ import { Apresentation } from '../components/Apresentation/Index'
 import { Description } from '../components/Description'
 import { ServicesInProjectMa } from '../components/ServicesInProjectMA'
 import { PartnerForm } from '../components/PartnerForm'
+import { useRouter } from 'next/router'
 
 export default function Home() {
   return (
