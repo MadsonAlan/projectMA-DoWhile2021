@@ -28,6 +28,7 @@
         .tittleHeader {
             font-family: 'Orbitron';
             margin: 1rem 0;
+            font-size: 1.5rem;
             text-align: center;
             color: var(--black);
         }
@@ -51,6 +52,13 @@
             position: relative;
         }
         
+        .menu li a:hover {
+            color: var(--purple-secondary);
+            border-bottom-style: outset;
+            border-bottom-width: 2px;
+            border-bottom-color: var(--purple);
+        }
+        
         .primaryButton {
             background: var(--purple);
             color: var(--white);
@@ -65,6 +73,8 @@
         }
         
         .secondaryButton {
+            border-style: outset;
+            border-width: 2px;
             background: transparent;
             color: var(--black);
             border-color: var(--purple);
@@ -75,6 +85,32 @@
         
         .secondaryButton:hover {
             background: var(--background-secondary);
+        }
+        
+        .menuMobile {
+            display: none;
+            list-style: none;
+        }
+        
+        @media(max-width: 770px) {
+            .tittleHeader {
+                font-size: 1rem;
+            }
+            .menu {
+                width: 80%;
+            }
+        }
+        
+        @media(max-width: 580px) {
+            .tittleHeader {
+                font-size: 1.5rem;
+            }
+            .menu {
+                display: none;
+            }
+            .menuMobile {
+                display: unset;
+            }
         }
         
         @media(max-width: 425px) {
