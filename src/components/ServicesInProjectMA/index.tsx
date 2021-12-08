@@ -12,7 +12,7 @@ export function ServicesInProjectMa() {
                 <Tween from={{ opacity: 0, transform: 'translate3d(0, -50px, 0)' }} ease="back.out(1.4)">
                     <p>Dentro da plataforma possuímos dois tipos de serviços:
                         o cursinho que é exclusivo para pessoas carentes que
-                        fazem perte das ONG’s parceiras. E os cursos
+                        fazem perte das ONG’s parceiras que esão cursando ou já completaram o ensino médio. E os cursos
                         profissionalizantes, os quais são abertos ao público</p>
                 </Tween>
             </div>
