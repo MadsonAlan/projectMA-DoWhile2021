@@ -3,7 +3,8 @@ import { toast } from 'react-toastify';
 import { useState } from 'react';
 
 export function PartnerForm() {
-    const notify = () => {
+    const notify = (e) => {
+        e.preventDefault();
         setEmail('')
         setTextArea('')
         toast.success("Muito obrigado por testar!😊")
@@ -22,7 +23,7 @@ export function PartnerForm() {
                 <form className={styles.formContainer}>
                     <input type="text" placeholder="Email ficticio para contato" value={email} onChange={(e) => setEmail(e.target.value)} />
                     <textarea placeholder="Texto de mensagem ficticia" value={textArea} onChange={(e) => setTextArea(e.target.value)} />
-                    <button type="submit" onClick={notify}>Enviar</button>
+                    <button type="submit" onClick={(e) => notify(e)}>Enviar</button>
                 </form>
             </section>
         </div>
